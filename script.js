@@ -11,18 +11,14 @@ sketchPadGenerator();
 
 
 btns.forEach(btn => btn.addEventListener('click', buttonFuctions(btn)))
-const spanInput = document.querySelector('span');
 
+// COLOUR CHANGER **************************************************************************************
 
 colourInput.addEventListener('click', function(){
 	let colour = colourInput.value;
 	cells = document.querySelectorAll('.cell');
-
-	cells.forEach(cell => cell.addEventListener('mouseover', function(e){
-		cell.style.backgroundColor = colour;
-	}));
 })
-
+//******************************************************************************************************
 
 //FUNCTION TO GENERATE SKECHPAD**************************************************************************
 
