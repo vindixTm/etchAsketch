@@ -1,0 +1,98 @@
+p {
+	color: #313F50 ;
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+}
+button {
+	color: #FFFF;
+	background-color:#313F50 ;
+	width: 200px;
+	height: 48px;
+	border-radius: 5px;
+	border-style: hidden;
+	font-size: 20px ;
+	margin-top: 23px;
+}
+
+input[type=color] {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+input[type=color]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+}
+
+input[type=color]::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+
+button:hover{
+	background-color: #556B85;
+}
+
+p, button {
+	font-family: 'Gemunu Libre', sans-serif;
+	font-weight: 800;
+}
+.mainContainer {
+	background-color: #E9E7E7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+	
+
+}
+.headerSection {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	
+	justify-content: space-between;
+}
+.siteName {
+	width: 200px;
+	height: 220px;
+}
+.tools {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.padContaner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+
+.sketchpad{
+	background-color: #FFFF;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 500px;
+	border-style: groove;
+}
+.row {
+	display: flex;
+	flex-grow: 1;
+}
+.cell {
+	flex-grow: 1;
+	border-style: unset;
+}
+/*.cell:hover{
+	background-color: blueviolet;
+}*/
